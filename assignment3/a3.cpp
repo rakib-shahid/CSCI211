@@ -69,6 +69,7 @@ int main(){
 
     // loop until user inputs "done"
     while (input != "done"){
+        cout << "Enter a string for race results:" << endl;
         cin >> input;
         if (input != "done"){
             scoreRace(input);
